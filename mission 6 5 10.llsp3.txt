@@ -1,0 +1,30 @@
+when program starts
+run fun
+run go
+
+define go
+set movement motors to AC
+set 1 motor rotation to 7.75 inches moved
+set movement speed to 50 %
+move forward for 29 inches
+set movement speed to 14 %
+move -45 for .9 rotations
+set movement speed to 25 %
+move back for 2.25 inches
+move -75 for .1 rotations
+move forward for 1.2 rotations
+move 15 for 1 rotations
+move right: 100 for .05 rotations
+move back for 1 rotations
+move forward for 1 rotations
+
+define fun
+turn on 9909999099000009000909990 for 2 seconds
+write Hi
+turn off pixels
+
+define test
+B run counterclockwise for 10 rotations
+
+run test
+
