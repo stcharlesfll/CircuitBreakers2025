@@ -1,0 +1,30 @@
+when program starts
+run fun
+run go
+
+define go
+set movement motors to AC  # starting position 5 squares with wheels pushed forward 
+set 1 motor rotation to 7.75 inches moved
+set movement speed to 50 %
+move forward for 28.8 inches
+set movement speed to 14 %
+move -45 for .9 rotations
+set movement speed to 25 %
+move back for 2.25 inches
+move -75 for .1 rotations
+move forward for 1.3 rotations
+move 15 for 1 rotations
+move 100 for .06 rotations
+move back for 1.3 rotations
+move forward for 1 rotations
+move left: -50 for .4 rotations
+move back for 36 inches
+turn on 9909999099000009000909990 for 0.3 seconds
+turn on 0090009900009000090009990 for 1 seconds
+turn off pixels
+
+define fun
+turn on 9909999099000009000909990 for 0.67 seconds
+write Hi
+turn off pixels
+
