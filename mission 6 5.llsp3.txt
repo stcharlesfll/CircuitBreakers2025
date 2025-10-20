@@ -1,0 +1,30 @@
+define 67
+turn on 0090009900009000090009990
+turn off pixels
+
+define go
+set movement motors to AC
+set 1 motor rotation to 7.7 inches moved
+set movement speed to 50 %
+move forward for 28.8 inches
+set movement speed to 10 %
+move -45 for .8 rotations
+set movement speed to 40 %
+move back for 7 inches
+move -75 for .2 rotations
+move back for 8 inches
+move forward for 13 inches
+set movement speed to 40 %
+move -75 for .67 rotations
+move forward for 22.67 inches
+
+when program starts  #  of the 4th sq. yellow atachment out.
+run fun
+run go
+run 67
+
+define fun
+turn on 9909999099000009000909990 for 0.67 seconds
+write Hi
+turn off pixels
+
