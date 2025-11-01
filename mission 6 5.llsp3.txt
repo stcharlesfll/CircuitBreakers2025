@@ -18,7 +18,7 @@ set movement speed to 40 %
 move -75 for .67 rotations
 move forward for 22.67 inches
 
-when program starts  #  of the 4th sq. yellow atachment out.
+when program starts  #  blue side of the 5th line yellow atachment out and gray on tall black.
 run fun
 run go
 run 67
