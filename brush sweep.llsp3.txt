@@ -1,0 +1,19 @@
+when program starts  # 4.9 squar
+set movement motors to AC
+set movement speed to 75 %
+move forward for 23 inches
+wait 1 seconds
+move back for 10 inches
+move 30 for .4 rotations
+move forward for 8 inches
+set movement speed to 50 %
+D run counterclockwise for 8 rotations
+move right: 30 for .75 rotations
+move forward for 4.8 inches
+D run clockwise for 8 rotations
+move forward for .6 inches
+wait 3 seconds
+D run counterclockwise for 7 rotations
+move back for 6 inches
+D run clockwise for 7 rotations
+

@@ -1,0 +1,18 @@
+when program starts
+set movement motors to AC  # all the way up
+set 1 motor rotation to 7.7 inches moved
+set movement speed to 50 %  # start on 2nd bold line
+move forward for 9 inches
+D run counterclockwise for 8.5 rotations
+move back for 14 inches
+
+define done
+A set pixel brightness to 100 %
+repeat 2
+   turn on 0009000909099900999009990 for 1.67 seconds
+   write boom-booms
+turn on 0909090909009009090909990 for 2 seconds
+turn off pixels
+
+D start motor counterclockwise
+

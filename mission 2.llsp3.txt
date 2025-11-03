@@ -1,0 +1,12 @@
+when program starts  # 3rd bold line
+run 1011
+
+define 1011
+set movement motors to AC
+set movement speed to 50 %
+move forward for 12 inches
+stop moving
+D run counterclockwise for 9 rotations
+move back for 2 rotations
+D run clockwise for 9 rotations
+
