@@ -1,0 +1,5 @@
+when program starts
+set movement motors to AC
+set movement speed to 75 %
+move forward for 23 inches
+

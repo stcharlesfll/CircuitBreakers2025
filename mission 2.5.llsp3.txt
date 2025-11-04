@@ -1,0 +1,5 @@
+when program starts
+set movement motors to AC
+move forward for 13 inches
+move back for 13 inches
+

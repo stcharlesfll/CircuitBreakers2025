@@ -8,7 +8,7 @@ move 30 for .4 rotations
 move forward for 8 inches
 set movement speed to 50 %
 D run counterclockwise for 8 rotations
-move right: 30 for .75 rotations
+move 30 for .75 rotations
 move forward for 4.8 inches
 D run clockwise for 8 rotations
 move forward for .6 inches
