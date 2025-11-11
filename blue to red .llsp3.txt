@@ -1,11 +1,3 @@
-define 67
-A set pixel brightness to 100 %
-repeat 2
-   turn on 0009000909099900999009990 for 1.67 seconds
-   write boom-booms
-turn on 0909090909009009090909990 for 2 seconds
-turn off pixels
-
 define fun
 turn on 9909999099000009000909990 for 0.67 seconds
 write Hi
@@ -14,7 +6,6 @@ turn off pixels
 when program starts  #  of the 4th sq. yellow atachment out
 run fun
 run go
-run 67
 
 define go
 set movement motors to AC
@@ -22,7 +13,7 @@ set 1 motor rotation to 7.7 inches moved
 set movement speed to 50 %
 move forward for 12 inches
 set movement speed to 20.67 %
-move -90 for .51 rotations
+move -90 for .53 rotations
 set movement speed to 50 %
-move forward for 68 inches
+move forward for 68.5 inches
 

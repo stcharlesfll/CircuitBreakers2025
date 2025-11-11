@@ -4,7 +4,7 @@ run 1011
 define 1011
 set movement motors to AC
 set movement speed to 50 %
-move forward for 11.25 inches
+move forward for 13.25 inches
 stop moving
 D run counterclockwise for 9 rotations
 move back for 11.25 inches

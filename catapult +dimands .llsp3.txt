@@ -1,5 +1,7 @@
 when program starts
+
+when I receive c+d
 set movement motors to AC
 set movement speed to 75 %
-move forward for 23 inches
+turn on 9909999099000009000909990
 

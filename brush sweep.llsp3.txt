@@ -12,8 +12,9 @@ move 30 for .75 rotations
 move forward for 4.8 inches
 D run clockwise for 8 rotations
 move forward for .6 inches
-wait 3 seconds
-D run counterclockwise for 7 rotations
-move back for 6 inches
-D run clockwise for 7 rotations
+D run counterclockwise for 4 rotations
+move back for 4.8 inches
+move left: -30 for .75 rotations
+move back for 28 inches
+D run clockwise for 4 rotations
 
